@@ -1,0 +1,18 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: chocolate;
+  margin: 10px;
+  border: 2px solid black;
+  display: inline-block;
+}
+#middle {
+  background-color: gold;
+}
+#relative #middle {
+  top: 300px;
+  position: relative;
+}
+#absolute #corner {
+  position: absolute;
+}

@@ -1,0 +1,38 @@
+div {
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: cyan;
+  text-align: center;
+}
+div:hover {
+  border-radius: 50%;
+  background-color: blue;
+  transform: rotateZ(10deg);
+}
+/*div {
+  width: 100px;
+  height: 100px;
+  background-color: indigo;
+  display: inline-block;
+  margin: 10px;
+  border: 3px solid black;
+  transition: 3s;
+}
+#two:hover {
+  background-color: cyan;
+  transition: ease-in;
+}
+
+#first {
+  background-color: black;
+  transition: 1s;
+}
+#first:hover {
+  border-radius: 50%;
+  background-color: blueviolet;
+}
+#two:hover {
+  border-radius: 50%;
+  transition: 2s;
+}*/

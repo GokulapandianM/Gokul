@@ -1,0 +1,33 @@
+body {
+  background-color: grey;
+  text-align: center;
+  margin-top: 50vh;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  padding: 0.5em 2em;
+  background: none;
+  border: 2px solid;
+  font-size: 1em;
+  border-radius: 15%;
+  border-color: lightseagreen;
+}
+button:hover {
+  border-color: yellow;
+  color: white;
+  transition: all 0.7s;
+  box-shadow: 12px 1px 10px 0.9px rgba(215, 252, 4, 0.945);
+  border-radius: 10%;
+  cursor: pointer;
+}
+input {
+  border-color: lightseagreen;
+  padding: 1em 2em;
+}
+input:hover#some {
+  /* inset | offset-x | offset-y | color */
+  box-shadow: inset 0.8em 0.7em gold;
+  transition: all 0.5s;
+}
