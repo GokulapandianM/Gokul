@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Homework 2</title>
+  </head>
+  <body>
+    <h1>Reservation Request</h1>
+    <form action="">
+      <fieldset>
+        <legend style="color: darkblue"><b> General Information</b></legend>
+        <label for="month">Arrival date:</label>
+        <input type="month" required style="margin: 8px" />
+        <span style="color: red"><b> Arrival date is invalid.</b></span> <br />
+
+        <label for="number">Nights:</label>
+        <input type="number" style="margin: 8px" />
+        <span style="color: red"><b> Nights must be a number.</b></span> <br />
+
+        <label for="number">Adults:</label>
+        <input type="number" style="margin: 8px" /> <br />
+
+        <label for="number">children:</label>
+        <input type="number" style="margin: 8px" />
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend style="color: darkblue"><b> Preferences</b></legend>
+        <label>Room type:</label>
+        <input type="radio" checked />
+        <label for="radio">Standard</label>
+
+        <input type="radio" />
+        <label for="radio">Business</label>
+
+        <input type="radio" />
+        <label for="radio">Suite</label> <br />
+        <br />
+        <label>Bed type:</label>
+        <input type="radio" checked />
+        <label for="radio">King</label>
+
+        <input type="radio" />
+        <label for="radio">Double Double</label> <br />
+        <br />
+        <input type="checkbox" />
+        <label for="checkbox">Smoking</label>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend style="color: darkblue"><b> Contact Information</b></legend>
+
+        <label for="name">Name:</label>
+        <input type="name" required style="margin: 8px" />
+        <span style="color: red"><b> Name is required</b></span> <br />
+
+        <label for="email">Email:</label>
+        <input type="email" style="margin: 8px" />
+        <span style="color: red"><b> Email address is invalid</b></span>
+        <br />
+        <label for="number">Phone:</label>
+        <input type="number" style="margin: 8px" />
+        <span style="color: red"><b> Phone number is invalid</b></span>
+      </fieldset>
+      <br />
+      <button style="padding: 0 20px">Submit Reservation</button>
+      <button style="padding: 0 30px">Clear</button>
+    </form>
+  </body>
+</html>
